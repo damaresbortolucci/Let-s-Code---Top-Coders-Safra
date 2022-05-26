@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Aula2_ex2_emprestimo
+build_property.ProjectDir = C:\LETS CODE\Lógica de programação C#\Aula02\Aula2-ex2-emprestimo\Aula2-ex2-emprestimo\
