@@ -1,0 +1,15 @@
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\bin\Debug\net6.0\StructAndEnum.exe
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\bin\Debug\net6.0\StructAndEnum.deps.json
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\bin\Debug\net6.0\StructAndEnum.runtimeconfig.json
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\bin\Debug\net6.0\StructAndEnum.dll
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\bin\Debug\net6.0\StructAndEnum.pdb
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\obj\Debug\net6.0\StructAndEnum.csproj.AssemblyReference.cache
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\obj\Debug\net6.0\StructAndEnum.GeneratedMSBuildEditorConfig.editorconfig
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\obj\Debug\net6.0\StructAndEnum.AssemblyInfoInputs.cache
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\obj\Debug\net6.0\StructAndEnum.AssemblyInfo.cs
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\obj\Debug\net6.0\StructAndEnum.csproj.CoreCompileInputs.cache
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\obj\Debug\net6.0\StructAndEnum.dll
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\obj\Debug\net6.0\refint\StructAndEnum.dll
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\obj\Debug\net6.0\StructAndEnum.pdb
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\obj\Debug\net6.0\StructAndEnum.genruntimeconfig.cache
+C:\LETS CODE\Lógica de programação C#\Exercicios Extras\StructExemplo\StructExemplo\obj\Debug\net6.0\ref\StructAndEnum.dll

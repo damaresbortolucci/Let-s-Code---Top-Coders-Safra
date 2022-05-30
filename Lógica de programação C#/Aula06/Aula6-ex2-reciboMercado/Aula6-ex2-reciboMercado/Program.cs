@@ -18,28 +18,39 @@
         produto.Add("amendoim", 3.75M);
 
 
-        for (int i = 0; i < 2; i++)
+        try
         {
-            Console.Write("\nNome do produto: ");
-            string nome = Console.ReadLine().ToLower();
-            Console.Write("Quantidade: ");
-            int quantidade = int.Parse(Console.ReadLine());
+            for (int i = 0; i < 2; i++)
+            {
+                Console.Write("\nNome do produto: ");
+                string nome = Console.ReadLine().ToLower();
+                Console.Write("Quantidade: ");
+                int quantidade = int.Parse(Console.ReadLine());
 
-            lista.Add(nome, quantidade);
+                lista.Add(nome, quantidade);
+            }
+
+            Console.Clear();
+            Console.WriteLine("Produto           | Qtde | Total");
+            Console.WriteLine("-----------------------------------");
+
+            foreach (string item in lista.Keys)
+            {
+                Console.WriteLine($"{item.PadRight(20)} {lista[item].ToString().PadRight(5)} {lista[item] * produto[item]:C}");
+                valorTotal += lista[item] * produto[item];
+            }
+
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine($"\nValor total da compra: {valorTotal:C}");
         }
-
-        Console.Clear();
-        Console.WriteLine("Produto           | Qtde | Total");
-        Console.WriteLine("-----------------------------------");
-
-        foreach (string item in lista.Keys)
+        catch (FormatException)
         {
-            Console.WriteLine($"{item.PadRight(20)} {lista[item].ToString().PadRight(5)} R$ {lista[item] * produto[item]}");
-            valorTotal += lista[item] * produto[item];
+            Console.WriteLine("Informe um valor válido");
         }
-
-        Console.WriteLine("-----------------------------------");
-        Console.WriteLine($"\nValor total da compra: R$ {valorTotal}");
-
+        catch (Exception e)
+        {
+            Console.WriteLine($"Exceção: {e.GetType().Name}");
+            Console.WriteLine($"Mensagem: {e.Message}");
+        }
     }
 }

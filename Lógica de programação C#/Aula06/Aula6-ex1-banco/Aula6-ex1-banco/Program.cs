@@ -44,7 +44,7 @@
                         saldo = saldo + valorDeposito;
                         break;
                 }
-                Console.Write($"Saldo atual: R$ {saldo}\n");
+                Console.Write($"Saldo atual: {saldo:C}\n");
             }
 
         } while (!retorno || opcao != 4);

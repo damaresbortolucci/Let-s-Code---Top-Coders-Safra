@@ -1,0 +1,15 @@
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\bin\Debug\net6.0\Aula6-ex3-carteiraInvestimento.exe
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\bin\Debug\net6.0\Aula6-ex3-carteiraInvestimento.deps.json
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\bin\Debug\net6.0\Aula6-ex3-carteiraInvestimento.runtimeconfig.json
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\bin\Debug\net6.0\Aula6-ex3-carteiraInvestimento.dll
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\bin\Debug\net6.0\Aula6-ex3-carteiraInvestimento.pdb
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\obj\Debug\net6.0\Aula6-ex3-carteiraInvestimento.csproj.AssemblyReference.cache
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\obj\Debug\net6.0\Aula6-ex3-carteiraInvestimento.GeneratedMSBuildEditorConfig.editorconfig
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\obj\Debug\net6.0\Aula6-ex3-carteiraInvestimento.AssemblyInfoInputs.cache
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\obj\Debug\net6.0\Aula6-ex3-carteiraInvestimento.AssemblyInfo.cs
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\obj\Debug\net6.0\Aula6-ex3-carteiraInvestimento.csproj.CoreCompileInputs.cache
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\obj\Debug\net6.0\Aula6-ex3-carteiraInvestimento.dll
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\obj\Debug\net6.0\refint\Aula6-ex3-carteiraInvestimento.dll
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\obj\Debug\net6.0\Aula6-ex3-carteiraInvestimento.pdb
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\obj\Debug\net6.0\Aula6-ex3-carteiraInvestimento.genruntimeconfig.cache
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex3-carteiraInvestimento\Aula6-ex3-carteiraInvestimento\obj\Debug\net6.0\ref\Aula6-ex3-carteiraInvestimento.dll

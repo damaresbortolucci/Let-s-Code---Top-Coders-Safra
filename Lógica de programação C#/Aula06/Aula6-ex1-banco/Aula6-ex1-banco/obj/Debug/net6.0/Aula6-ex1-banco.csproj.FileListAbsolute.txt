@@ -1,0 +1,15 @@
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\bin\Debug\net6.0\Aula6-ex1-banco.exe
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\bin\Debug\net6.0\Aula6-ex1-banco.deps.json
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\bin\Debug\net6.0\Aula6-ex1-banco.runtimeconfig.json
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\bin\Debug\net6.0\Aula6-ex1-banco.dll
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\bin\Debug\net6.0\Aula6-ex1-banco.pdb
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\obj\Debug\net6.0\Aula6-ex1-banco.csproj.AssemblyReference.cache
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\obj\Debug\net6.0\Aula6-ex1-banco.GeneratedMSBuildEditorConfig.editorconfig
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\obj\Debug\net6.0\Aula6-ex1-banco.AssemblyInfoInputs.cache
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\obj\Debug\net6.0\Aula6-ex1-banco.AssemblyInfo.cs
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\obj\Debug\net6.0\Aula6-ex1-banco.csproj.CoreCompileInputs.cache
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\obj\Debug\net6.0\Aula6-ex1-banco.dll
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\obj\Debug\net6.0\refint\Aula6-ex1-banco.dll
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\obj\Debug\net6.0\Aula6-ex1-banco.pdb
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\obj\Debug\net6.0\Aula6-ex1-banco.genruntimeconfig.cache
+C:\LETS CODE\Lógica de programação C#\Aula06\Aula6-ex1-banco\Aula6-ex1-banco\obj\Debug\net6.0\ref\Aula6-ex1-banco.dll
