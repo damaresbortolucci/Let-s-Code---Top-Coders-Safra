@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Aula1_POO_Atributos.TesteCartaoCredito</StartupObject>
+    <StartupObject>Aula1_POO_Atributos.TesteConta</StartupObject>
   </PropertyGroup>
 
 </Project>
