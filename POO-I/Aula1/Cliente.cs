@@ -1,9 +1,6 @@
-﻿using System;
-
-
+﻿
 namespace Aula1_POO_Atributos
 {
-
     class TesteCliente
     {
         public static void Main(string[] args)
@@ -24,7 +21,6 @@ namespace Aula1_POO_Atributos
             Console.WriteLine("Cliente 1: " + cliente1.nome);
             Console.WriteLine("Cliente 2: " + cliente2.nome);
             Console.WriteLine("Cliente 3: " + cliente3.nome);
-
         }
     }
 
@@ -33,17 +29,6 @@ namespace Aula1_POO_Atributos
     {
         public string? nome;
         public int codigo;
-        public string? cpf;
-
-        public bool validaCpf(string cpf)
-        {
-            bool cpfValido = false;
-
-            if (string)
-            {
-                cpfValido = true;
-            }
-            return cpfValido;
-        }
+        public string? cpf;  
     }
 }

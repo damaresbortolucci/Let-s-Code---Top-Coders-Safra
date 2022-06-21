@@ -19,12 +19,12 @@ namespace Aula3_POO_Desafios
             funcionario2.AumentaSalario(200.00M);
 
             Console.WriteLine("Dados do funcionário 1");
-            funcionario1.MostrarDados();
+            funcionario1.ConsultaDados();
            
             Console.WriteLine("----------------------");
 
             Console.WriteLine("Dados do funcionário 2");
-            funcionario2.MostrarDados();
+            funcionario2.ConsultaDados();
 
         }
     }
@@ -39,7 +39,7 @@ namespace Aula3_POO_Desafios
             salario += aumento;
         }
 
-        public void MostrarDados()
+        public void ConsultaDados()
         {
             Console.WriteLine($"Nome: {nome}");
             Console.WriteLine($"Salário: {salario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))}");
