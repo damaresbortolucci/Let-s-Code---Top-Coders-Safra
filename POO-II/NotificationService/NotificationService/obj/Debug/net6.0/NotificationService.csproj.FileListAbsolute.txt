@@ -1,0 +1,15 @@
+C:\LETS CODE\POO-II\NotificationService\NotificationService\bin\Debug\net6.0\NotificationService.exe
+C:\LETS CODE\POO-II\NotificationService\NotificationService\bin\Debug\net6.0\NotificationService.deps.json
+C:\LETS CODE\POO-II\NotificationService\NotificationService\bin\Debug\net6.0\NotificationService.runtimeconfig.json
+C:\LETS CODE\POO-II\NotificationService\NotificationService\bin\Debug\net6.0\NotificationService.dll
+C:\LETS CODE\POO-II\NotificationService\NotificationService\bin\Debug\net6.0\NotificationService.pdb
+C:\LETS CODE\POO-II\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.csproj.AssemblyReference.cache
+C:\LETS CODE\POO-II\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\LETS CODE\POO-II\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.AssemblyInfoInputs.cache
+C:\LETS CODE\POO-II\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.AssemblyInfo.cs
+C:\LETS CODE\POO-II\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.csproj.CoreCompileInputs.cache
+C:\LETS CODE\POO-II\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.dll
+C:\LETS CODE\POO-II\NotificationService\NotificationService\obj\Debug\net6.0\refint\NotificationService.dll
+C:\LETS CODE\POO-II\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.pdb
+C:\LETS CODE\POO-II\NotificationService\NotificationService\obj\Debug\net6.0\NotificationService.genruntimeconfig.cache
+C:\LETS CODE\POO-II\NotificationService\NotificationService\obj\Debug\net6.0\ref\NotificationService.dll
