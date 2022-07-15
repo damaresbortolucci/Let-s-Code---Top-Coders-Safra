@@ -1,9 +1,23 @@
-﻿namespace LetsMarket
+﻿using BetterConsoleTables;
+
+namespace LetsMarket
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
+
+         
+                Table table = new Table(TableConfig.MySql());
+                table.From<SomeData>(rows);
+
+                Console.Write(table.ToString());
+        
+
+
+
+
             var opcoes = new string[] { "Login do Caixa", "Cadastrar Produto", "Consultar Produto", "Editar Produto", "Remover Produto", "Sair" };
 
             ExibeMenu(opcoes);

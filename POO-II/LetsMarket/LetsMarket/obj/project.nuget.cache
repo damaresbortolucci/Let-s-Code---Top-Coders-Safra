@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U7TuJkOrJVybtazIWdjVW1hSSRM98rPiUaIUO31K0rECV2UFaYGWf2ewtSgtUM9ShINEPo9Ro0wqUCZ+OzujSw==",
+  "dgSpecHash": "EHdjqTAVMk4w1ZnFGlm4ZnSffK2jNkPR6qVnZXWdare76A3rP/DlywzTpz7qxg5Xu4PzHr003WfDwKQ34oMSpg==",
   "success": true,
   "projectFilePath": "C:\\LETS CODE\\POO-II\\LetsMarket\\LetsMarket\\LetsMarket.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\damar\\.nuget\\packages\\betterconsoletables\\1.1.3\\betterconsoletables.1.1.3.nupkg.sha512"
+  ],
   "logs": []
 }
