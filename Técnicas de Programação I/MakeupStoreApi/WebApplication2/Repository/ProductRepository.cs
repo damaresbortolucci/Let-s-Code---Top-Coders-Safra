@@ -1,9 +1,9 @@
 ﻿using System.Text.Json;
 using MakeupStoreApi.Models;
 
-namespace MakeupStoreApi
+namespace MakeupStoreApi.Repository
 {
-    public static class AccessDb
+    public static class ProductRepository
     {
         public static List<Product> GetData()
         {

@@ -1,16 +1,37 @@
-﻿namespace MakeupStoreApi.Models
+﻿using System.Text.Json.Serialization;
+
+namespace MakeupStoreApi.Models
 {
     public class Product
     {
-        public int id { get; set; }
-        public string brand { get; set; }
-        public string name { get; set; }
-        public string price { get; set; }
-        public string image_link { get; set; }
-        public string description { get; set; }
-        public object rating { get; set; }
-        public string category { get; set; }
-        public string product_type { get; set; }
-        public List<string> tag_list { get; set; }
+        [JsonPropertyName("id")]
+        public int Id { get; set; }
+
+        [JsonPropertyName("brand")]
+        public string Brand { get; set; }
+
+        [JsonPropertyName("name")]
+        public string Name { get; set; }
+
+        [JsonPropertyName("price")]
+        public string Price { get; set; }
+
+        [JsonPropertyName("image_link")]
+        public string Image_Link { get; set; }
+
+        [JsonPropertyName("description")]
+        public string Description { get; set; }
+
+        [JsonPropertyName("rating")]
+        public object Rating { get; set; }
+
+        [JsonPropertyName("category")]
+        public string Category { get; set; }
+
+        [JsonPropertyName("product_type")]
+        public string Product_Type { get; set; }
+
+        [JsonPropertyName("tag_list")]
+        public List<string> Tag_List { get; set; }
     }
 }
