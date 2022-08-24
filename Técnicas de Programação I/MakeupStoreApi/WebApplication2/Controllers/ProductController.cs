@@ -20,6 +20,9 @@ namespace MakeupStoreApi.Controllers
 
 
 
+        //API usada como base "https://makeup-api.herokuapp.com/"
+
+
         //BUSCA PAGINADA por product_type
         //EX: blush, bronzer, lipstick, eyebrow, nail_polish, mascara, foundation
 
@@ -162,12 +165,12 @@ namespace MakeupStoreApi.Controllers
         public ActionResult<Product> Update(int id, [FromBody] ProductDto prod)
         {
             var data = AccessDb.GetData();
-            var productToUpdate = data.FirstOrDefault(p => p.id == id);
+            var productToUpdate = data.SingleOrDefault(p => p.id == id);
 
             if (productToUpdate == null)
                 return NotFound("ID não localizado");
 
-            data.Remove(productToUpdate);
+
             productToUpdate.brand = prod.brand;
             productToUpdate.name = prod.name;
             productToUpdate.price = prod.price;
@@ -177,7 +180,6 @@ namespace MakeupStoreApi.Controllers
             productToUpdate.category = prod.category;
             productToUpdate.product_type = prod.product_type;
             productToUpdate.tag_list = prod.tag_list;
-            data.Add(productToUpdate);
 
             var content = JsonSerializer.Serialize(data);
             System.IO.File.WriteAllText("./data.json", content);
