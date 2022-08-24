@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ERPSkm/vkhY4U9lOHufBmQdGh5UZTecNYbiLbb9CcR5xn1pu4GnE/ZUP1sfKnWflW0c0PJr2Z638qvJnuTbqmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\damar\\Documents\\1 - CURSOS TECNOLOGIA\\LETS CODE\\MATÉRIAS\\3 - TECNICAS PROG\\MakeupStoreApi\\WebApplication2\\MakeupStoreApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\damar\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\damar\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\damar\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\damar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\damar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\damar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
