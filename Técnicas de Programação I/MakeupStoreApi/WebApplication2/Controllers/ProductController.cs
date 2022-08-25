@@ -19,13 +19,11 @@ namespace MakeupStoreApi.Controllers
         }
 
 
+        //API usada como BD "https://makeup-api.herokuapp.com/"
 
-        //API usada como base "https://makeup-api.herokuapp.com/"
 
-
-        //BUSCA PAGINADA por product_type
+        //Busca paginada por product_type
         //EX: blush, bronzer, lipstick, eyebrow, nail_polish, mascara, foundation
-
         [HttpGet("type")]
         public ActionResult<IEnumerable<Product>> Get([FromQuery] string type, [FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {
@@ -50,7 +48,7 @@ namespace MakeupStoreApi.Controllers
             return Ok(new
             {
                 StatusCode = 200,
-                Message = "Consulta bem sucedida",
+                Message = "Consulta concluída",
                 Meta = new
                 {
                     CurrentPage = page,
@@ -66,7 +64,7 @@ namespace MakeupStoreApi.Controllers
         public ActionResult<Product> GetById(int id)
         {
             var data = ProductRepository.GetData();
-            var filteredData = data.Where(x => x.Id == id).FirstOrDefault();
+            var filteredData = data.Where(p => p.Id == id).FirstOrDefault();
 
             if (filteredData == null)
             {
@@ -100,9 +98,46 @@ namespace MakeupStoreApi.Controllers
         }
 
 
+
+        //busca por tipo de produto e nota mínima
+        //product_types: blush, bronzer, lipstick, eyebrow, nail_polish, mascara, foundation
+        [HttpGet("type_rating")]
+        public ActionResult<IEnumerable<Product>> GetRating([FromQuery] string type, [FromQuery] float rating=1)
+        {
+            var data = ProductRepository.GetData();
+
+            var filteredData = data
+                .Where(x => x.Product_Type == type && x.Rating >= rating)
+                .ToList();
+
+            return Ok(filteredData);
+        }
+
+
+
+        //média de nota por marca
+        [HttpGet("averageByBrand")]
+        public ActionResult<List<Product>> GetAverageByBrand()
+        {
+            var data = ProductRepository.GetData();
+
+            var filteredData = data
+                .Where(x => x.Brand != null)
+                .GroupBy(x=> x.Brand)
+                .Select(x=> new
+                {
+                    brand = x.Key,
+                    Average_rating = x.Average(x => x.Rating)
+                })           
+                .ToList();
+
+            return Ok(filteredData);
+        }
+
+
+
         //busca por marca específica
         // EX: maybelline, nyx, l'oreal, milani, revlon
-
         [HttpGet("brand")]
         public ActionResult<IEnumerable<Product>> GetByBrandName([FromQuery] string brand)
         {
@@ -156,12 +191,11 @@ namespace MakeupStoreApi.Controllers
 
 
 
-
         [HttpPut]
         public ActionResult<Product> Update(int id, [FromBody] ProductDto prod)
         {
             var data = ProductRepository.GetData();
-            var productToUpdate = data.SingleOrDefault(p => p.Id == id);
+            var productToUpdate = data.Where(p => p.Id == id).FirstOrDefault();
 
             if (productToUpdate == null)
                 return NotFound("ID não localizado");
