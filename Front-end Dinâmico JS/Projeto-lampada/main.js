@@ -1,12 +1,12 @@
-const background = document.querySelector('img')
+const image = document.querySelector('img')
 
-background.addEventListener('click',()=>{
+image.addEventListener('click',()=>{
 
     document.body.classList.toggle('dark-mode')
-    const img = background.getAttribute('src'); 
+    const src = image.getAttribute('src'); 
 
-    if(img == './img/lampada-ligada.png')
-        background.setAttribute('src', './img/lampada-desligada.png');
+    if(src == './img/lampada-ligada.png')
+        image.setAttribute('src', './img/lampada-desligada.png');
     else
-        background.setAttribute('src', './img/lampada-ligada.png');     
+        image.setAttribute('src', './img/lampada-ligada.png');     
 })
