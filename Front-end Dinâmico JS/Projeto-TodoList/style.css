@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+
+body
+{
+    background-color: #181824;
+}
+
+h1
+{
+    color: #2bd00e;
+ 
+}
+
+p
+{
+    margin: 0;
+}
+
+.todo-container{
+    width: 100%;
+    max-width: 650px;
+    margin: 5rem auto;
+    padding: 55px;
+    border-radius: 12px;
+    font-family: 'Roboto', sans-serif;
+    background: #25273c;
+}
+
+.todo-form{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 18px;
+    border-radius: 12px;
+    margin-bottom: 4rem; 
+}
+
+.todo-form div{
+    width: 100%;
+    display: flex;
+    align-items: center;   
+    border-radius: 12px;
+    background: #303144;
+}
+
+.todo-form input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    outline: none;
+    font-size: 18px;
+    color: #FFF;
+    background: #303144; 
+}
+
+button{
+    cursor: pointer;
+}
+
+.todo-form button {
+    border: none;
+    background: #303144;
+    color: #FFF;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-reset{
+    padding: 15px;
+}
+
+.btn-reset:hover{
+    color: #8f13f5;
+}
+
+.btn-submit{
+    width: 55px;
+    border-radius: 12px;
+}
+
+.btn-submit:hover{
+    background-color: #2bd00e;
+}
+
+
+/* tarefas */
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 16px;
+    background: #303144; 
+}
+
+.todo-item div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 10px;
+}
+
+.btn-checked,
+.btn-remove {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background: #303144; 
+}
+
+.btn-checked{
+    border: 1px solid #2bd00e49;
+}
+
+.btn-remove{
+    border: 1px solid #8f13f56f;
+}
+
+.btn-remove:hover {
+   background: #8f13f5
+}
+
+.btn-checked:hover{
+    background: #2bd00e;
+}
+
+.checked p{
+    color: rgb(122, 122, 122);
+    text-decoration: line-through;
+}
+
+.btn-clearAll{
+    text-align: right;
+    margin-top: 50px;
+}
+.btn-clearAll button{
+    padding: 12px;
+    background-color: #303144; 
+    border-radius: 12px;
+    color: rgb(210, 209, 209);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-clearAll button:hover{
+    background-color: #8f13f5 ;
+    color: #fff;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 450px) {
+    .todo-container{
+        padding: 30px;
+    }
+}

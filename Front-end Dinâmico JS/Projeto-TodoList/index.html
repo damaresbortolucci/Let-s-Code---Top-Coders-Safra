@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>My To Do List</title>
+</head>
+<body>
+    <main>
+        <div class="todo-container">
+            <h1>To Do</h1>
+            <!-- form -->
+            <form class="todo-form">
+                <div>
+                    <input type="text" name="todo-input" id="todo-input">
+                    <button type="reset" class="btn-reset">
+                        <i class="fa fa-remove"></i>
+                    </button>
+                </div>
+                <button type="submit" class="btn-submit">
+                    <i class="fa fa-plus"></i>
+                </button>
+            </form>
+            <!-- List -->
+            <div class="todo-list-container">
+                <ul class="todo-list">    
+                </ul>
+            </div>
+            <div class="btn-clearAll hide">
+                <button type="reset">Limpar Tudo</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
